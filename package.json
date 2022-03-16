@@ -1,46 +1,47 @@
 {
-  "name": "ayu-midas",
-  "displayName": "ayu MiDas",
-  "description": "ayu Dark for the editor, ayu Mirage for UI, and extra tweaks for better visibility",
-  "version": "1.0.0",
-  "publisher": "QyuriLa",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/QyuriLa/vscode-ayu-midas"
-  },
-  "engines": {
-    "vscode": "^1.13.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "ayu"
-  ],
-  "homepage": "https://github.com/QyuriLa/vscode-ayu-midas",
-  "icon": "assets/logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "ayu MiDas",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-midas.json"
-      }
-    ]
-  },
-  "scripts": {
-    "build": "ts-node ./src/build.ts",
-    "package": "vsce package",
-    "start": "npm run build; npm run package",
-    "publish": "vsce publish"
-  },
-  "devDependencies": {
-    "@types/node": "^16.6.0",
-    "ayu": "^8.0.1",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.3",
-    "vsce": "^1.96.1"
-  }
+	"name": "ayu-midas",
+	"displayName": "ayu MiDas",
+	"description": "ayu Dark + ayu Mirage + extra tweaks",
+	"version": "1.0.1",
+	"publisher": "qyurila",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/QyuriLa/vscode-ayu-midas"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark-theme",
+		"ayu"
+	],
+	"homepage": "https://github.com/QyuriLa/vscode-ayu-midas",
+	"icon": "assets/logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "ayu MiDas",
+				"uiTheme": "vs-dark",
+				"path": "./ayu-midas.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "ts-node ./src/build.ts",
+		"package": "vsce package",
+		"start": "npm run build; npm run package",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/node": "^16.6.0",
+		"ayu": "^8.0.1",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.3",
+		"vsce": "^1.96.1"
+	}
 }
