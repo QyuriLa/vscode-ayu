@@ -1,42 +1,33 @@
-![vscode-ayu](assets/header.png)
+# ayu MiDas for VSCode
 
-> Source from: https://github.com/dempfi/ayu
+> Forked from https://github.com/ayu-theme/vscode-ayu
 
-A simple theme with bright colors and comes in three versions — *dark*, *light* and *mirage* for all day long comfortable work.
-
-> Note that this isn't a theme maintained by the original [Ayu theme](https://github.com/dempfi/ayu) author so please report issues related to this theme here.
-
-## Install
-
-```shell
-ext install ayu
-```
-
-Then go to `Preferences > Color Theme > Ayu Light(or Ayu Dark, or Ayu Mirage)`.
-If you want to setup File Icon, then go to `Preferences > File Icon Theme > Ayu`.
+*ayu Dark* for the editor, *ayu Mirage* for UI, and extra tweaks for better visibility.
 
 ## Screenshots
 
-#### Light
-![Light](assets/light.png)
-![Light Bordered](assets/light-bordered.png)
+![Normal Preview](assets/preview-normal.png)
+![Extend Preview](assets/preview-extend.png)
 
-#### Mirage
-![Mirage](assets/mirage.png)
-![Mirage Bordered](assets/mirage-bordered.png)
-
-#### Dark
-![Dark](assets/dark.png)
-![Dark Bordered](assets/dark-bordered.png)
+> - Icon used: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+> - Font used: [D2Coding](https://github.com/naver/d2codingfont)
 
 ## Development
 
-Install dependencies
-```shell
-npm install
-```
+Same as [vscode-ayu](https://github.com/ayu-theme/vscode-ayu#development)
 
-Update themes and build VSIX package
-```shell
-npm run build && npm run package
-```
+## Note
+
+- This extension does **not contain** *ayu icon theme*.
+- This isn't a theme maintained by the original [vscode Ayu](https://github.com/ayu-theme/vscode-ayu) author nor original [ayu theme](https://github.com/dempfi/ayu) author.
+- Enhancement of syntax highlighting is not planned for now, but any suggestions or PRs are welcomed!
+
+### Why yet another ayu fork?
+
+I really love the syntax highlighting scheme and overall colors in *ayu* as it is.
+
+However, IMO its UI with same-colored backgrounds makes it hard to focus on each section. Bordering isn't a help to this enough. Also, the UI foreground color is not bright enough to read comfortably. (well maybe it's all because of my poor monitor color adjustment but whatever)
+
+When I tried Sublime Text 4, my go-to option was ayu-**dark** for *color scheme* (editor section) and ayu-**mirage** for *theme* (overall UI section). It was not perfect, but way better than applying the same theme for both! Unfortunately, VSCode has no option like this, and I couldn't find any ayu fork which has this concept.
+
+That's why I made ayu MiDas for VSCode. Yep, this is a theme entirely for me. But I'd be happy if this could help someone else.
