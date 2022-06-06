@@ -189,7 +189,7 @@ export default () => {
 
 			'editorLink.activeForeground': scheme.mirage.common.accent.hex(),
 
-			'editorWhitespace.foreground': scheme.dark.editor.indentGuide.active.alpha(0.6).hex(),
+			'editorWhitespace.foreground': scheme.dark.editor.indentGuide.active.alpha(0.4).hex(),
 
 			'editorIndentGuide.background': scheme.dark.editor.indentGuide.normal.hex(),
 			'editorIndentGuide.activeBackground': scheme.dark.editor.indentGuide.active.hex(),
