@@ -11,22 +11,24 @@ const main = {
 	accent: c`FFB454`,
 
 	links: c`0096CF`,
-	inlineCode: c`FFB454`,
+	// inlineCode: c`FFB454`,
 	quote: {
 		bg: c`252832`, // hsl(226, 15%, 17%)
 		border: c`303441`, // hsl(226, 15%, 22%)
 	},
 	table: {
 		border: c`192129`, // hsl(210, 25%, 13%)
-		headerBg: c`364759`, // hsl(210, 25%, 28%)
-		altBg: c`151C23`, // hsl(210, 25%, 11%)
+		headerBg: c`364159`, // hsl(210, 25%, 28%)
+		// altBg: c`151C23`, // hsl(210, 25%, 11%)
+		altBg: c`131720`, // hsl(222, 25%, 10%)
 	},
 }
 const sidebar = {
-	bg: c`14191F`,
+	// bg: c`14191F`,
+	bg: c`14171F`,
 	fg: c`C8C9DB`,
 	nonExistant: c`5C6773`,
-	active: c`FFB454`,
+	// active: c`FFB454`,
 	spacer: c`2D334F`,
 }
 const menubar = {
